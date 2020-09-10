@@ -1,0 +1,21 @@
+-Giống nhau:
++ Arrow Function và Function đều là function
+- Arrow Function: sử dụng kí tự =>
+    let Hi = () => {
+    console.log('Hi')
+    }
+    // => Hi
+- Function:  sử dụng từ khóa function:
+    function Hi(){
+    console.log('Hi')
+    }
+    // => Hi
+- Arrow function thường ngắn gọn hơn function:
++ Với hàm số có 1 tham số, arrow function có thể bỏ qua cặp dấu ngoặc đơn.
++ Arrow function cũng có thể bỏ qua từ khoá return.
+- Arrow function không định nghĩa giá trị this của riêng nó giống như function.
+- Arrow function cũng không định nghĩa giá trị arguments của riêng nó.
+- Arrow function không phù hợp làm method cho object
+- Arrow function không thể sử dụng làm hàm constructor
+- Arrow function không có thuộc tính prototype
+- Arrow function không được hoisted
